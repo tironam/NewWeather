@@ -1,0 +1,18 @@
+.navbar {
+    width: 100%;
+}
+
+.container-fluid {
+    margin-top: 15%;
+    margin-left: 10px;
+    background-color: lightgray;
+    padding-bottom: 15px;
+}
+
+.searchBar {
+    margin: 15px 0px 15px 0px;
+}.card {
+    margin: 15px;
+    width: 130px;
+    height: 180px;
+}
