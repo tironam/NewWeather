@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App Remix</title>
+    <title>Weather</title>
 
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
+
 <body>
 
     <nav class="navbar navbar-dark bg-primary">
@@ -19,7 +22,8 @@
     <div class="row">
         <div class="container-fluid col-sm-3">
             <form class="form-inline md-form mr-auto mb-4">
-                <input type="text" id="cityName" class="form-control mr-sm-2 searchBar" placeholder="Find a city" aria-label="Search">
+                <input id="cityName" class="form-control mr-sm-2 searchBar" type="text" placeholder="Find a city"
+                    aria-label="Search">
                 <button id="searchBtn" class="btn btn-primary" type="submit">Search</button>
             </form>
             <div id="searchBar"></div>
@@ -49,5 +53,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
+    <script rel="JavaScript" src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
+
 </html>
